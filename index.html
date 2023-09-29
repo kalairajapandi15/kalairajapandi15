@@ -1,283 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Edyoda Stories Blog Page</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <style>
-         html {
-            scroll-behavior: smooth;
-          }
-    header {
-        padding: 16px 78px;
-        background-color: #fff;
-    }
-    .logo{
-        width: 130px;
-        size: 32px;
-        color: #0084ff;
-    
-    }  
-     .story{
-        font-style: italic;
-        font-weight: 500;
-     }
-    
-     .container{
-        margin-bottom: 20px;
-     size: 14px;
-        padding-top: 16px;
-     }
-     
-     .head{
-        color: #000;
-        font-weight:600;
-        margin-top: 0%;
-     }
-    
-     .categories{
-        size: 14px;
-        padding: 6px 14px; 
-        width: auto; 
-        color: #0084ff; 
-        border-radius: 15px; 
-        border: 1px solid #0084ff; 
-        margin:5px; 
-        cursor: pointer;
-     }
-     .categories:hover
-     {background-color: #0084ff;
-        color: #fff;
-     }
-     .one{
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        display: inline-block;
-     }
-     /* Float four columns side by side */
-    .column {
-    
-      padding: 0 10px;
-    }
-    
-    /* Remove extra left and right margins, due to padding */
-    .row {margin: 0 -5px;}
-    
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Responsive columns */
-    @media screen and (max-width: 600px) {
-      .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-      }
-    }
-    
-    /* Style the counter cards */
-    .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      text-align: center;
-      background-color: #f1f1f1;
-        margin-bottom: 20px;
-    }
-    
-    .a{   font-family: Raleway;
-        font-style: normal;
-        font-stretch: normal;
-        letter-spacing: normal;
-        text-align: left;
-        margin: 0;
-        font-size: 1.25em;
-        font-weight: 600;
-        line-height: 1.14;
-        color: #000;
-    }
-    .Author{
-        color: #0096ff;
-        size:14px;
-        font-style: italic;
-        font-weight: 500;
-    text-align: left;
-    padding-top: 4px;
-    }
-    .b{
-        opacity: .5;
-        font-family: Raleway;
-        font-size: 14px;
-        font-weight: 400;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.43;
-        letter-spacing: .35px;
-        text-align: left;
-        color: #000;
-        margin: 0.3em 0;
-        white-space: pre-wrap;
-    }
-    .card a{   font-size: .9em;
-        font-weight: 500;
-        line-height: 2;
-        color: #0096ff;}
-    .card span{    font-size: 14px;
-        font-weight: 300;
-        font-style: normal;
-        color: #000;
-        margin-top: 0.3em;}
-    .footer{
-        background-color: #172146;
-        padding: 80px 16%;
-        
-    }
-    .pad15{padding:15px;     text-align: left;}
-    
-    body{
-     background-color: #f2f6ff;
-    }
-    </style>
-    
-    </head>
-    <body>
-    
-    
-        <header>
-            
-        
-            <div >
-                <span class="logo" style="font-size: x-large;" ><b>EDYODA</b></span> 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                <span style="color: #000;">Explore categories<select style="padding-top:0; padding-left: 8px; border: none;"></select></span>  <p class="story"  style="margin: 0";>      
-                Stories  
-                </p>                               
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html design</title>
+    <link rel="stylesheet" href="/webpage/css/style.css">
+</head>
+<body>
+  <header>
+    <img src="/webpage/images/stunning-logo (1).png" width="100px" height="40px">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Jobs</a>
+    </nav>
+    <button value="your account" class="btn-you">Your account</button>
+  </header>
+  <main>
+    <div class="parent">
+        <div class="child1">
+           <pre class="stun">   Stunning
+   WorkPlace.
+            </pre>
+            <pre class="org">
+       With Stunning, remote teams can organize projects,
+       manage shifting priorities, and get work done.
+            </pre>
+            <div class="same">
+                <button value="new account" class="btn-new">New Account</button>
+                <img src="/webpage/images/arrow-up.png" alt="" width="50px" height="50px">
+                <img src="/webpage/images/arrow-down.png" alt="" width="50px" height="50px">
+            </div>
+
+            <div class="tick">
+                <!-- <div class="user1">
+                    <img src="/images/tick-gray (2).png" alt="">
+                    <span class="">Dmm design</span>
+                    <img src="/images/user-pink.png" alt="">
+                    <span>20 Dec</span>
+                </div>
+                <div class="user2">
+                    <img src="/images/tick-blue.png" alt="">
+                    <span>Blurr animation</span>
+                    <img src="/images/user-orange.png" alt="">
+                    <span>22 Dec</span>
+                </div>
+                <div class="user3">
+                    <img src="/images/tick-gray (2).png" alt="">
+                    <span>Illustration</span>
+                    <img src="/images/user-blue.png" alt="">
+                    <span>26 Dec</span>
+                </div>
+                <div class="user4">
+                    <img src="/images/tick-gray (2).png" alt="">
+                    <span>Refunds</span>
+                    <img src="/images/user-red (2).png" alt="">
+                    <span>28 Dec</span>
+                </div> -->
+                <table>
+                    <tr>
+                    <td><img src="/webpage/images/tick-gray (2).png" alt=""></td>
+                    <td class="user">Dmm design</td>
+                    <td><img src="/webpage/images/user-pink.png" alt=""></td>
+                    <td class="date">
+                        20 Dec
+                    </td>
+                    <td><div class="pink"></div></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="/webpage/images/tick-blue.png" alt=""></td>
+                        <td class="user">Blurr animation</td>
+                        <td><img src="/webpage/images/user-orange.png" alt=""></td>
+                        <td class="date">
+                            22 Dec
+                        </td>
+                        <td><div class="orange"></div></td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="/webpage/images/tick-gray (2).png" alt=""></td>
+                            <td class="user">Illustration</td>
+                            <td><img src="/webpage/images/user-blue.png" alt=""></td>
+                            <td class="date">
+                                26 Dec
+                            </td>
+                            <td><div class="blue"></div></td>
+                            </tr>
+                            <tr>
+                                <td><img src="/webpage/images/tick-gray (2).png" alt=""></td>
+                                <td class="user">Refunds</td>
+                                <td><img src="/webpage/images/user-red (2).png" alt=""></td>
+                                <td class="date">
+                                    28 Dec
+                                </td>
+                                <td><div class="red"></div></td>
+                                </tr>
+                </table>
+            </div>
+        </div>
+        <div class="child2">
+            <img src="/webpage/images/landing.png" alt="" width="400px" height="400px">
+        </div>
     </div>
-        </header>
-        <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-              <div class="container">
-                <h1 class="head">Trending Posts</h1>
-                <i class='fa fa-filter' style="color: #0084ff;"></i> 
-                <span style="margin-left: 8px; font-weight: 600; font-size: 14px;">Filter by Category</span>
-                <br>
-                <br>
-                <br>
-                <div >
-                <span class="categories" >All</span>
-                <span class="categories" >Artificial Intelligence</span>
-                <span class="categories" >Cloud Computing</span>
-                <span class="categories" >DevOps</span>
-                <span class="categories" >Programming Languages</span>
-                <span class="categories" >Mobile Application Development</span>
-                <br>
-                <br>
-                <span class="categories" >Technology and Tools</span>
-    
-                <span class="categories" >Get a Job in a Tech Company</span>
-                <span class="categories" >Others</span> </div>
-    
-            </div>
-        </div>
-        <div class="col-lg-4">
-               <div class="column">
-                        <div class="card">
-                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png" width="100%" height="100%">
-                    <div class="pad15">
-                    <h1 class="a">Introduction To A Machine Learning Online Course</h1>
-                    <a href="#EdYoda" class="Author">EdYoda <span>|24 Aug 2019</span></a>
-                    <p class="b">We have had an insight into Artificial Intelligence. Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what is this.</p>
-                </div>
-                </div>
-            </div>
-        </div>
-            <div class="col-lg-4">
-        <div class="column">
-                <div class="card">
-                    <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png" width="100%" height="100%">
-                    <div class="pad15">
-    <h1 class="a">LAMP Stack Vs MEAN stack: Choosing the...</h1>
-    <div class="clearfix"></div>
-    <a href="#EdYoda" class="Author">EdYoda <span>|24 Aug 2019</span></a>
-    <p class="b">In today's dynamic world, developing a rapid application with a smooth user interface that can adapt to specific features</p>
-    
-                </div>
-            </div>
-            </div>
-         
-        </div>
-            <div class="col-lg-4">
-               <div class="column">
-                    <div class="card">
-                        <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" width="100%" height="100%">
-                        <div class="pad15">
-                        <h1 class="a">Impact of Cloud Computing in various</h1>
-                        <a href="#EdYoda" class="Author">EdYoda <span>|24 Aug 2019</span></a>
-                        <p class="b">Cloud Computing has been rapidly gaining pace in the world of information technology. It has been observed that over 90% of global enterprises are using clou..</p>
-                        
-                    </div>
-                    </div>
-                </div>
-        </div>
-         <div class="col-lg-4">
-                              <div class="column">
-                                <div class="card">
-                            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png" width="100%" height="100%">
-                            <div class="pad15">
-                            <h1 class="a">Challenges of Machine Learning in Big Data...</h1>
-                            <a href="#EdYoda" class="Author">EdYoda <span>|24 Aug 2019</span></a>
-                            <p class="b">Machine Learning is a subset of artificial intelligence which is an important part of computer science. The revolution of Big Data promises to transfer the...</p>
-                        </div>
-                        </div>
-        </div>
-    
-        </div>
-        <div class="col-lg-4">
-            <div class="column">
-              <div class="card">
-          <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png" width="100%" height="100%">
-          <div class="pad15">
-          <h1 class="a">Breaking the Myths around Cybersecurity</h1>
-          <a href="#EdYoda" class="Author">EdYoda <span>|26 Aug 2019</span></a>
-          <p class="b">Cybersecurity plays an integral role in the process of good business models. But even Cybersecurity programs built with good intentions can fall short in...</p>
-      </div>
-      </div>
-    </div>
-    
-    </div>
-    
-    <div class="col-lg-4">
-                   <div class="column">
-                            <div class="card">
-                                <img src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png" width="100%" height="100%">
-                                <div class="pad15">
-                                <h1 class="a">Importance of Data Backup and Recovery i...</h1>
-                                <a href="#EdYoda" class="Author">EdYoda <span>|26 Aug 2019</span></a>
-                                <p class="b">A business must always introspect the areas where they lack in order to bring about a positive change in the work environment. One of the main...</p>
-        
-        </div>
-        </div>
-        </div>
-        </div>
-    
-        </div>
-        </div>
-       
-    <div class="clearfix"></div>
-    <div class="footer"></div>
-    
-    
-    
-    </body>
+  </main>
+</body>
+</html>

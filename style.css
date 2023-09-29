@@ -1,0 +1,195 @@
+*
+{
+    margin: 10px;
+    padding: 0;
+}
+
+.btn-you
+{
+    color: #5243C0;
+    font-weight: bolder;
+    position: absolute;
+    padding: 5px;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    background-color: pink;
+    font-size: 12px;
+    right: 20px;
+    border: none;
+}
+.btn-new
+{
+    padding: 10px;
+    border-radius: 20px;
+    height: 50px;
+    width: 140px;
+    background-color:#5243C0;
+    font-size: 10px;
+    color: white;
+    border: none;
+    margin-left: 35px;
+}
+header
+{
+    display: flex;
+    position: relative;
+}
+
+nav{
+   position: relative;
+   justify-content: center;
+   left: 30%;
+   
+}
+.parent
+{
+    display: flex;
+}
+.child2
+{
+    padding-left: 60px;
+    margin-left:80px ;
+    margin-top: 50px;
+}
+.same
+{
+    display: flex;
+}
+.user1
+{
+    display: flex;
+}
+.user2
+{
+    display: flex;
+}.user3
+{
+    display: flex;
+}.user4
+{
+    display: flex;
+}
+.tick 
+{
+    margin-left: 30px;
+    margin-top: 75px;
+    border-radius: 20px;
+    
+}
+.tick .user1 span{
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tick .user2 span{
+    margin-right: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tick .user3 span{
+    margin-right: 51px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tick .user4 span{
+    margin-right: 73px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+     color: grey;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+}
+nav a:hover
+{
+    color: black;
+    font-weight: bold;
+}
+nav a::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav a:hover::after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.stun
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 5px;
+}
+.org
+{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: -40px;
+    margin-left:6x ;
+}
+#dot{
+    color: #5243C0;
+}
+.child1
+{
+    margin-top: 50px;
+}
+.child2 img{
+    width: 600px;
+    height: 500px;
+}
+.pink
+{
+    width: 28px;
+    height: 12px;
+    border: 2px solid pink;
+    border-radius: 30%;
+    background-color: pink;
+}
+.orange
+{
+    width: 28px;
+    height: 12px;
+    border: 2px solid #FD6534;
+    border-radius: 30%;
+    background-color: #FD6534;
+}
+.blue
+{
+    width: 28px;
+    height: 12px;
+    border: 2px solid #9ED095;
+    border-radius: 30%;
+    background-color: #9ED095;
+}
+.red
+{
+    width: 28px;
+    height: 12px;
+    border: 2px solid #FFE4A0;
+    border-radius: 30%;
+    background-color: #FFE4A0;
+}
+
+
